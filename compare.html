@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/compare.css" />
+    <title>Compare Page</title>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="input_field">
+        <i class="fa-brands fa-github fa-2xl"></i>
+      </div>
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="index.html" class="compare_nav_btn">Back ...</a>
+          </li>
+          <li>
+            <a href="" id="dark_mode"
+              ><i class="fa-solid fa-moon fa-2xl"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="winner hidden">
+      <h1>
+        <i class="fa-solid fa-crown fa-lg" style="color: #ffea00"></i> The
+        winner <i class="fa-solid fa-crown fa-lg" style="color: #ffea00"></i>
+      </h1>
+
+      <img src="images/127286743.jpg" alt="NotFound" class="Winner_img" />
+      <h2 class="winner_name">Winner Name</h2>
+      <h4 class="winner_username">Winner Username</h4>
+      <button id="close_winner">Close</button>
+    </div>
+    <div class="compare_field">
+      <div class="container">
+        <div class="user_one">
+          <img
+            src="images/avatar.png"
+            alt="NotFound"
+            class="personal_img_one"
+          />
+          <input
+            type="text"
+            id="user_one_input"
+            placeholder="Enter First Username ..."
+          />
+          <h3 class="name_one">Full Name</h3>
+          <h5 class="username_one">Username</h5>
+          <h2 class="user_one_repo">!?</h2>
+          <span>Repositories</span>
+        </div>
+      </div>
+      <div class="container">
+        <div class="user_two">
+          <img
+            src="images/avatar.png"
+            alt="NotFound"
+            class="personal_img_two"
+          />
+          <input
+            type="text"
+            id="user_two_input"
+            placeholder="Enter First Username ..."
+          />
+          <h3 class="name_two">Full Name</h3>
+          <h5 class="username_two">Username</h5>
+          <h2 class="user_two_repo">!?</h2>
+          <span>Repositories</span>
+        </div>
+      </div>
+    </div>
+    <button class="compare_btn">Compare</button>
+  </body>
+  <script src="js/compare.js"></script>
+</html>
